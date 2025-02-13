@@ -1,0 +1,83 @@
+body {
+    font-family: Poppins, serif;
+    background: linear-gradient(to bottom, white, black);
+}
+
+.titulos {
+    font-family: "Work Sans", serif;
+    font-weight: bold;
+}
+
+header {
+    background-color: white;
+}
+
+header .navbar-brand i {
+    font-size: 32px;
+    
+}
+
+header .nav-pills .nav-link{
+    color: black;
+}
+
+header .nav-pills .nav-link.active {
+    background-color: black;
+    color: white;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+#generos .nav-link {
+    color: black;
+}
+
+#generos .nav-link.active {
+    color: white;
+    background-color: black;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.social-links li {
+    list-style: none;
+}
+
+.social-links li a {
+    text-decoration: none;
+    color: black;
+}
+
+#recomendacao {
+    color: white;
+}
+
+#contato {
+    color: white;
+}
+
+#contato i {
+    color: white;
+}
+
+.t-area {
+    resize: none;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.btn-personalizado {
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.btn-personalizado:hover {
+    background-color: black;
+    color: white;
+}

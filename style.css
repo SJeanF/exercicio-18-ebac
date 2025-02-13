@@ -39,6 +39,7 @@ header .nav-pills .nav-link.active {
     background-color: black;
 }
 
+
 .social-links {
     display: flex;
     justify-content: space-between;
@@ -80,4 +81,15 @@ header .nav-pills .nav-link.active {
 .btn-personalizado:hover {
     background-color: black;
     color: white;
+}
+
+@media (max-width:767px) {
+    
+    #generos .tab-pane {
+        max-height: 700px;
+        overflow-y: scroll;
+        border: 8px solid;
+        border-image:  radial-gradient(circle, white, black) 1;
+        border-radius: 4px;
+    }
 }
